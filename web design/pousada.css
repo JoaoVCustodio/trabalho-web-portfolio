@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+.div1 {
+  text-align: center;
+  display: flex;
+  border-bottom: 10px solid black;
+
+}
+
+button {
+  height: 150px;
+  border: 0;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 25px;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+}
+
+.img1 {
+  height: 150px;
+
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 1px;
+  cursor: pointer;
+}
+
+h1 {
+
+  font-size: 50px;
+  text-align: center;
+
+}
+
+.divsobre {
+
+  background-color: rgb(216, 210, 210);
+  margin-top: 40px;
+  height: 600px;
+  border: 10px solid;
+
+}
+
+.coluna {
+
+  height: 800px;
+  float: left;
+  width: 50%;
+
+
+}
+
+.div_ {
+  border-bottom: 10px solid;
+}
+
+.div_::after {
+
+  content: "";
+  clear: both;
+  display: table;
+}
+
+li {
+
+  font-size: 23px;
+  list-style-type: none;
+  padding-top: 30px;
+}
+
+.colunasobre {
+
+  margin-left: 50px;
+  float: left;
+  display: flex;
+  width: 1000px;
+
+  font-size: 30px;
+}
+
+.coluna2 {
+
+  display: flex;
+  padding-left: 300px;
+  text-align: center;
+}
+
+.divsobre::after {
+
+  clear: both;
+}
+
+.divfotos {
+
+  margin-top: 50px;
+  
+}
+
+.divcontato {
+
+  margin-top: 70px;
+  border: 10px solid;
+   background-color: rgb(216, 210, 210)
+
+}
+
+.informacoes {
+
+  float: left;
+  margin-left: 100px;
+  margin-top: 300px;
+  font-size: 30px;
+  text-align: start;
+}
+
+.mapa {
+
+
+  display: flex;
+  padding-left: 350px;
+  padding-right: 50px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+p {
+
+  border-bottom: 5px solid;
+}
+
+.gallery {
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    grid-template-rows: repeat(3, 30vw);
+    grid-gap: 15px;
+}
+
+.galleryimg{
+
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border: 10px solid;
+}
